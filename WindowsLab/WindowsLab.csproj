@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF7D4582-E021-42DC-B396-B00D9F1356E1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsLab</RootNamespace>
+    <AssemblyName>WindowsLab</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Vectores5B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vectores5B.Designer.cs">
+      <DependentUpon>Vectores5B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vectores\Vectores4B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vectores\Vectores4B.Designer.cs">
+      <DependentUpon>Vectores4B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vectores\Vectores5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vectores\Vectores5.Designer.cs">
+      <DependentUpon>Vectores5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos\Ejercicio1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos\Ejercicio1.Designer.cs">
+      <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos\Ejercicio2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos\Ejercicio2.Designer.cs">
+      <DependentUpon>Ejercicio2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos\Ejercicio3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos\Ejercicio3.Designer.cs">
+      <DependentUpon>Ejercicio3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos\Ejercicio4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos\Ejercicio4.Designer.cs">
+      <DependentUpon>Ejercicio4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos\Ejercicio5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos\Ejercicio5.Designer.cs">
+      <DependentUpon>Ejercicio5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Metodos\Ejercicio6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Metodos\Ejercicio6.Designer.cs">
+      <DependentUpon>Ejercicio6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vectores\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vectores\Vectores1-SolucionA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vectores\Vectores1-SolucionA.Designer.cs">
+      <DependentUpon>Vectores1-SolucionA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vectores\Vectores2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vectores\Vectores2.Designer.cs">
+      <DependentUpon>Vectores2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vectores\Vectores3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vectores\Vectores3.Designer.cs">
+      <DependentUpon>Vectores3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vectores\Vectores4A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vectores\Vectores4A.Designer.cs">
+      <DependentUpon>Vectores4A.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Metodos\Ejercicio1.resx">
+      <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metodos\Ejercicio2.resx">
+      <DependentUpon>Ejercicio2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metodos\Ejercicio3.resx">
+      <DependentUpon>Ejercicio3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metodos\Ejercicio4.resx">
+      <DependentUpon>Ejercicio4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metodos\Ejercicio5.resx">
+      <DependentUpon>Ejercicio5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Metodos\Ejercicio6.resx">
+      <DependentUpon>Ejercicio6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vectores5B.resx">
+      <DependentUpon>Vectores5B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vectores\Vectores4B.resx">
+      <DependentUpon>Vectores4B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vectores\Vectores1-SolucionA.resx">
+      <DependentUpon>Vectores1-SolucionA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vectores\Vectores2.resx">
+      <DependentUpon>Vectores2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vectores\Vectores3.resx">
+      <DependentUpon>Vectores3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vectores\Vectores4A.resx">
+      <DependentUpon>Vectores4A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vectores\Vectores5.resx">
+      <DependentUpon>Vectores5.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
